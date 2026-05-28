@@ -35,7 +35,7 @@ This repository contains implementations, experiments, assignments, and notebook
 - Scikit-Learn
 - Seaborn
 - Pandas
-
+- PyTorch
 ---
 
 ## Setup
