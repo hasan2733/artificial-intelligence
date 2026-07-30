@@ -1,8 +1,28 @@
 # Artificial Intelligence
 
-A personal repository for practicing and revising different topics of Artificial Intelligence, Machine Learning, and Deep Learning.
+A personal repository for practicing and revising topics in Artificial Intelligence, Machine Learning, and Deep Learning. This repository primarily contains Jupyter Notebooks with experiments, assignments, and small projects using modern Python ML frameworks.
 
-This repository contains implementations, experiments, assignments, and notebooks related to AI/ML/DL using modern frameworks and libraries.
+---
+
+## Table of Contents
+
+- [About](#about)
+- [Topics Included](#topics-included)
+- [Tech Stack](#tech-stack)
+- [Repository Structure](#repository-structure)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Author](#author)
+
+---
+
+## About
+
+This repository is created for learning, practice, experimentation, and revision. It collects Jupyter Notebooks, scripts, and small projects that cover classical machine learning, deep learning, and research-oriented experiments.
+
+Note: According to the repository statistics, the primary language in this repo is Jupyter Notebook (100%).
 
 ---
 
@@ -17,8 +37,8 @@ This repository contains implementations, experiments, assignments, and notebook
 - Federated Learning
 - Feature Engineering
 - Image Processing
-- DWT
-- GAT
+- Discrete Wavelet Transform (DWT)
+- Graph Attention Networks (GAT)
 - Octree Segmentation
 - Research-based Experiments
 
@@ -26,40 +46,75 @@ This repository contains implementations, experiments, assignments, and notebook
 
 ## Tech Stack
 
-- Python
-- Jupyter Notebook
-- TensorFlow
-- Keras
-- NumPy
-- Matplotlib
-- Scikit-Learn
-- Seaborn
-- Pandas
+- Python 3.8+
+- Jupyter Notebook / JupyterLab (primary)
+- TensorFlow & Keras
 - PyTorch
+- NumPy, Pandas
+- Scikit-Learn
+- Matplotlib, Seaborn
+
+---
+
+## Repository Structure
+
+Typical layout (may vary by folder):
+- notebooks/           — Jupyter notebooks for experiments
+- projects/            — standalone project folders
+- datasets/            — sample data or download scripts
+- scripts/             — helper scripts and utilities
+- README.md            — this file
+
 ---
 
 ## Setup
 
+Recommended: create a virtual environment.
+
 ```bash
 git clone https://github.com/hasan2733/artificial-intelligence.git
-
 cd artificial-intelligence
 
-pip install tensorflow jupyter numpy matplotlib
+# create and activate virtual env (example using venv)
+python -m venv .venv
+source .venv/bin/activate   # macOS/Linux
+# .venv\Scripts\activate    # Windows
 
+# install dependencies (if requirements.txt present)
+pip install -r requirements.txt
+
+# or install common packages manually
+pip install tensorflow jupyter numpy matplotlib pandas scikit-learn seaborn
 jupyter notebook
 ```
 
+If you don't have a requirements.txt file, I can generate one from the notebooks and projects if you want.
+
 ---
 
-## Purpose
+## Usage
 
-This repository is mainly created for learning, practice, experimentation, and revision.
+- Open notebooks in `notebooks/` using Jupyter Notebook or JupyterLab.
+- Run project-specific scripts from each project folder (check each folder's README for details).
+- For experiments that require GPUs, ensure proper CUDA/CuDNN setup and use the appropriate TensorFlow/PyTorch builds.
+
+---
+
+## Contributing
+
+This is primarily a personal learning repo, but contributions are welcome. If you'd like to contribute:
+- Open an issue describing the proposed change.
+- Submit a pull request with a clear description and reproducible steps.
+
+---
+
+## License
+
+Add a license if you want others to reuse your code (e.g., MIT, Apache-2.0). I can add a LICENSE file if you tell me which license you prefer.
 
 ---
 
 ## Author
 
-**Abid Hasan**
-
+**Abid Hasan**  
 GitHub: https://github.com/hasan2733
