@@ -1,5 +1,7 @@
 # Artificial Intelligence
 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/hasan2733/artificial-intelligence/blob/main/LICENSE)
+
 A personal repository for practicing and revising topics in Artificial Intelligence, Machine Learning, and Deep Learning. This repository primarily contains Jupyter Notebooks with experiments, assignments, and small projects using modern Python ML frameworks.
 
 ---
@@ -110,7 +112,7 @@ This is primarily a personal learning repo, but contributions are welcome. If yo
 
 ## License
 
-Add a license if you want others to reuse your code (e.g., MIT, Apache-2.0). I can add a LICENSE file if you tell me which license you prefer.
+This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
 
 ---
 
