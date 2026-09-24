@@ -1,8 +1,12 @@
 # Artificial Intelligence
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/hasan2733/artificial-intelligence/blob/main/LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 
-A personal repository focused on learning and practicing Artificial Intelligence, Machine Learning, and Deep Learning. It contains Jupyter notebooks, notes, datasets, and research-related materials used for experiments and study.
+A personal repository focused on learning and practicing Artificial Intelligence, Machine Learning, and Deep Learning. It contains Jupyter notebooks, datasets, notes, and research materials used for experiments, assignments, and hands-on study.
 
 > Note: this repository is primarily composed of Jupyter Notebooks.
 
@@ -12,9 +16,11 @@ A personal repository focused on learning and practicing Artificial Intelligence
 
 - [Overview](#overview)
 - [Repository Structure](#repository-structure)
+- [Featured Notebooks](#featured-notebooks)
 - [Topics Covered](#topics-covered)
 - [Setup](#setup)
 - [Usage](#usage)
+- [Project Roadmap](#project-roadmap)
 - [Contributing](#contributing)
 - [License](#license)
 - [Author](#author)
@@ -23,13 +29,14 @@ A personal repository focused on learning and practicing Artificial Intelligence
 
 ## Overview
 
-This repository is a collection of AI and ML learning materials organized into notebooks and documentation. It includes:
+This repository is a curated collection of AI and ML learning materials organized into notebooks, assignments, and documentation. It includes:
 
-- Foundation topics such as Python, NumPy, Pandas, and visualizations
-- Machine learning algorithms and evaluation methods
-- Deep learning topics including ANN, CNN, RNN, and transformers
-- Research and advanced AI topics
-- Practical assignments, notes, and experiments
+- Core Python and data-science foundations
+- Classical machine learning workflows
+- Deep learning concepts and architectures
+- Computer vision and NLP-related model exploration
+- Research notes and advanced AI topics
+- Practical assignments and experiments
 
 ---
 
@@ -68,6 +75,23 @@ artificial-intelligence/
 │   └── My_Notes/
 └── .gitignore (if present)
 ```
+
+---
+
+## Featured Notebooks
+
+A few representative notebooks from the repository:
+
+- `Notebooks/Basic/python_basics.ipynb` — Python fundamentals
+- `Notebooks/Basic/numpy.ipynb` — NumPy arrays and numerical operations
+- `Notebooks/Basic/pandas.ipynb` — DataFrames and data handling
+- `Notebooks/ML/Linear_Regression.ipynb` — Linear regression basics
+- `Notebooks/ML/K_means_clustering.ipynb` — Clustering with K-Means
+- `Notebooks/DL/CNN/cats_vs_dogs_simple_binary_classification_using_cnn.ipynb` — CNN binary classification
+- `Notebooks/DL/RNN/RNN_LSTM.ipynb` — Recurrent neural network concepts
+- `Notebooks/DL/Transformer/transformer.ipynb` — Transformer architecture exploration
+- `Notebooks/Reinforcement_Learning/Reinforcement_Learning.ipynb` — RL fundamentals
+- `Notebooks/Implementation/Cardiovascular_disease_Prediction_with_AutoML.ipynb` — practical ML implementation
 
 ---
 
@@ -117,7 +141,7 @@ On Windows:
 pip install jupyter numpy pandas matplotlib seaborn scikit-learn tensorflow torch
 ```
 
-If you are using a specific notebook that requires extra libraries, install them within that environment as needed.
+If a specific notebook requires additional packages, install them inside the environment as needed.
 
 ---
 
@@ -125,14 +149,45 @@ If you are using a specific notebook that requires extra libraries, install them
 
 - Open notebooks in `Notebooks/` using Jupyter Notebook or JupyterLab.
 - Explore the `document/` folder for notes, assignments, and research materials.
-- Use the provided datasets in `Notebooks/datasets/` for experiments.
-- Run each notebook in order when dependencies or training data are required.
+- Use the datasets in `Notebooks/datasets/` for experiments and practice.
+- Run notebooks sequentially when they depend on prior setup or training data.
 
 Example:
 
 ```bash
 jupyter notebook
 ```
+
+---
+
+## Project Roadmap
+
+### Phase 1: Foundations
+- Python basics
+- NumPy, Pandas, and data visualization
+- Linear algebra and data preprocessing
+
+### Phase 2: Machine Learning
+- Regression and classification
+- SVM, clustering, KNN, Naive Bayes
+- Model evaluation and validation
+
+### Phase 3: Deep Learning
+- Artificial neural networks
+- CNNs for image data
+- RNNs and sequence modeling
+- Transformer concepts and text generation
+
+### Phase 4: Advanced AI
+- Object detection
+- Transfer learning
+- Explainable AI and research topics
+- Advanced deep learning experiments
+
+### Phase 5: Practical Applications
+- AutoML-based solutions
+- Real-world prediction workflows
+- Assignment-based problem solving
 
 ---
 
@@ -162,4 +217,4 @@ GitHub: https://github.com/hasan2733
 
 ---
 
-*README updated to reflect the repository structure and current learning materials.*
+*README updated to include badges, a featured notebooks section, and a cleaner project roadmap.*
